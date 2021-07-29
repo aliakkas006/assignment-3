@@ -1,3 +1,25 @@
-body section{
+.top-container{
     height: 698px;
+}
+.header-bike{
+    width: 552px;
+    height: 447px;
+}
+.feature-bike{
+    width: 288px;
+    height: 243px;
+}
+.feature-bike-grayscale{
+    width: 288px;
+    height: 243px;
+    filter: grayscale(100%);
+}
+.client-div{
+    width: 310px;
+    height: 464px;
+    margin-right: 43px;
+}
+.client-img{
+    width: 149px;
+    height: 149px;
 }

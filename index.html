@@ -10,52 +10,130 @@
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <!-- Custom CSS -->
         <link rel="stylesheet" href="main.css">
+        <!-- Font awesome -->
+        <script src="https://kit.fontawesome.com/aef7f88b34.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <!-- Header section -->
-    <section class="bg-secondary w-100">
-        <section class="container">
-            <div class="row  d-flex justify-content-center align-items-center">
-                <div class="col text-white">
-                    <h5 class="fw-light fs-6">Computer-controlled digital transistorized with electronic advance</h5>
-                    <h1 class="fw-bold fs-1">Honda CBR 300R</h1>
-                    <h4 class="fw-light fs-5">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit
-                    mollit. Exercitation veniam consequat sunt nostrud amet.</h4>
-
-                    <!-- Button trigger modal -->
-                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                    Purchase
-                    </button>
-                
-                    <!-- Modal -->
-                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                    <div class="modal-dialog">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title" id="exampleModalLabel">Honda cbr 300R</h5>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                            </div>
-                            <div class="modal-body">
-                                <h2>This bike Purchasing at $4000</h2>
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                <button type="button" class="btn btn-primary">Buy</button>
+    <header>
+        <section class="top-container bg-secondary w-100">
+            <section class="container">
+                <div class="row gy-4 d-flex justify-content-center align-items-center">
+                    <div class="col-lg-6 col-12 text-white">
+                        <h5 class="fw-light fs-6">Computer-controlled digital transistorized with electronic advance</h5>
+                        <h1 class="fw-bold fs-1">Honda CBR 300R</h1>
+                        <h4 class="fw-light fs-5">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</h4>
+        
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            Purchase
+                        </button>
+        
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Honda cbr 300R</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <h2>This bike Purchasing at $4000</h2>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary">Buy</button>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
+                    <div class="col-lg-6 col-12">
+                        <img class="header-bike" src="images/header-bike.png" alt="">
+                    </div>
                 </div>
-                </div>
-                       
-        
-                <div class="col">
-                    <img src="images/header-bike.png" alt="">
-                </div>
-            </div>
+            </section>
         </section>
-        
-  
+    </header>
+
+            <!-- Feature bike section -->
+
+    <section class="container my-5">
+        <h1 class="text-center">Fetured Bikes 2021</h1>
+        <h6 class="text-center text-danger">Best bike collection</h6>
+        <div class="row gy-4 my-5">
+            <div class="col-lg-4 col-12">
+                <img class="feature-bike-grayscale" src="images/feature-bike.jpg" alt="">
+            </div>
+            <div class="col-lg-4 col-12">
+                <img class="feature-bike" src="images/feature-bike.jpg" alt="">
+            </div>
+            <div class="col-lg-4 col-12">
+                <img class="feature-bike-grayscale" src="images/feature-bike.jpg" alt="">
+            </div>
+        </div>
     </section>
+
+             <!-- Happy clint section -->
+
+    <section class="container my-5">
+        <h1 class="text-center my-5">Happy <span class="text-danger">Clients says</span></h1>
+        <div class="row">
+            <div class="col client-div border border-2 d-flex flex-column justify-content-center align-items-center rounded-3">
+                <img class="client-img my-3" src="images/user-1.png" alt="">
+                <p class="text-center">Slate helps you see how <br>
+                     many more days you need <br>
+                     to work to reach your financial <br>
+                     goal for the month and year.</p>
+                <p>
+                    <i class="fas fa-star text-danger"></i>
+                    <i class="fas fa-star text-danger"></i>
+                    <i class="fas fa-star text-danger"></i>
+                    <i class="fas fa-star text-danger"></i>
+                    <i class="far fa-star text-danger"></i>
+                </p>
+                <p class="text-primary">Regina Miles</p>
+                <p>Banker</p>
+            </div>
+
+            <div class="col client-div border border-2 d-flex flex-column justify-content-center align-items-center rounded-3">
+                <img class="client-img my-3 " src="images/user-2.png" alt="">
+                <p class="text-center">Slate helps you see how <br>
+                    many more days you need <br>
+                    to work to reach your financial <br>
+                    goal for the month and year.</p>
+                <p>
+                    <i class="fas fa-star text-danger"></i>
+                    <i class="fas fa-star text-danger"></i>
+                    <i class="fas fa-star text-danger"></i>
+                    <i class="fas fa-star text-danger"></i>
+                    <i class="far fa-star text-danger"></i>
+                </p>
+                <p class="text-primary">Regina Miles</p>
+                <p>Banker</p>
+            </div>
+
+            <div class="col client-div border border-2 d-flex flex-column justify-content-center align-items-center rounded-3">
+                <img class="client-img rounded-circle my-3" src="images/user-3.jpg" alt="">
+                <p class="text-center">Slate helps you see how <br>
+                    many more days you need <br>
+                    to work to reach your financial <br>
+                    goal for the month and year.</p>
+                <p>
+                    <i class="fas fa-star text-danger"></i>
+                    <i class="fas fa-star text-danger"></i>
+                    <i class="fas fa-star text-danger"></i>
+                    <i class="fas fa-star text-danger"></i>
+                    <i class="far fa-star text-danger"></i>
+                </p>
+                <p class="text-primary">Regina Miles</p>
+                <p>Banker</p>
+            </div>
+        </div>
+    </section>
+    
     
 
     <!-- Bootstrap js -->
